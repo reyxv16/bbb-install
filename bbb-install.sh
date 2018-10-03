@@ -92,7 +92,7 @@ main() {
   need_mem
   need_ubuntu
   need_x64
-  check_apache2
+  #check_apache2
 
   while builtin getopts "hs:v:e:p:gt" opt "${@}"; do
     case $opt in
